@@ -150,12 +150,23 @@ onMounted(async () => {
       '%cWe can see that you have enabled the Global Privacy Control, indicating that you do not wish to have your information sold or shared.',
       'font-weight:bold; color: lightgreen;',
       '\nYour privacy is important to us, and we completely honor your choice.',
-      'As a result, we have deactivated Google Analytics and Microsoft Clarity. 😉'
+      'As a result, we have deactivated Google Analytics, Microsoft Clarity, and Cloudflare RUM. 😉'
     );
   } else if (navigator.userAgent.indexOf('OBS') > 0) {
     // Don't track in OBS mode to reduce performance impact
     window.gtag = () => {};
   } else if (import.meta.env.PROD) {
+    // Setup Cloudflare RUM (Real User Measurements)
+    if (import.meta.env.VITE_CLOUDFLARE_RUM_TOKEN) {
+      (function (token) {
+        const rumScript = document.createElement('script');
+        rumScript.defer = true;
+        rumScript.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+        rumScript.setAttribute('data-cf-beacon', JSON.stringify({ token: token }));
+        document.head.appendChild(rumScript);
+      })(import.meta.env.VITE_CLOUDFLARE_RUM_TOKEN);
+    }
+
     // Setup GA
     (function (id) {
       const gtagScript = document.createElement('script');
