@@ -12,7 +12,7 @@
     <div class="max-w-screen overflow-x-hidden overflow-y-hidden">
       <div class="grid header text-center">
         <h1 class="col-12 mb-0 text-4xl sm:text-5xl md:text-6xl">
-          <span v-if="!Fairmode">Unfair</span><span v-else>Fair</span>&nbsp;<span
+          <span v-if="!Fairmode">ZoOes Unfair</span><span v-else>ZoOes Fair</span>&nbsp;<span
             class="white-space-nowrap"
             >Spin Wheel</span
           >

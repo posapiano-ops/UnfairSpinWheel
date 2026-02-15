@@ -61,7 +61,7 @@ import ItemInputGroup from '@/components/sidebar-panel/ItemInputGroup.vue';
 import SidebarPanel from '@/components/sidebar-panel/SidebarPanel.vue';
 import CongratulationDialog from '@/components/CongratulationDialog.vue';
 import Footer from '@/components/Footer.vue';
-import ShareLink from '@/components/ShareLink.vue';
+//import ShareLink from '@/components/ShareLink.vue';
 import { ItemService } from '@/services/ItemService';
 import { SidebarService } from '@/services/SidebarService';
 import { SettingService } from '@/services/SettingService';
@@ -124,6 +124,6 @@ app.component('ItemInputGroup', ItemInputGroup);
 app.component('SidebarPanel', SidebarPanel);
 app.component('CongratulationDialog', CongratulationDialog);
 app.component('Footer', Footer);
-app.component('ShareLink', ShareLink);
+//app.component('ShareLink', ShareLink);
 
 app.mount('#app');

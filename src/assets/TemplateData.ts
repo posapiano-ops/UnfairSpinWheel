@@ -1,184 +1,183 @@
 export const templateItems = [
   {
-    group: "Who's the next winner?",
-    label: 'Jim',
-    weight: 5,
+    group: "Cosa Vuoi fare in ZoOes?",
+    label: 'Verifica ed implementazione Backup',
+    weight: 1,
     order: 0
   },
   {
-    group: "Who's the next winner?",
-    label: 'John',
+    group: "Cosa Vuoi fare in ZoOes?",
+    label: 'Ambiente sviluppo e test CNA2',
     weight: 1,
     order: 1
   },
   {
-    group: "Who's the next winner?",
-    label: 'Will',
-    weight: 5,
+    group: "Cosa Vuoi fare in ZoOes?",
+    label: 'Ambiente Sviluppo e test Urbanet',
+    weight: 1,
     order: 2
   },
   {
-    group: "Who's the next winner?",
-    label: 'Mark',
+    group: "Cosa Vuoi fare in ZoOes?",
+    label: 'Verifica ed implementazione Monitoring, log, XDR e SIEM',
     weight: 1,
     order: 3
   },
   {
-    group: "Who's the next winner?",
-    label: 'Emily',
-    weight: 4,
+    group: "Cosa Vuoi fare in ZoOes?",
+    label: 'Migrazione MongoDB a Filesystem',
+    weight: 1,
     order: 4
   },
   {
-    group: "Who's the next winner?",
-    label: 'Sarah',
-    weight: 3,
+    group: "Cosa Vuoi fare in ZoOes?",
+    label: 'Conf Firewall CISCO',
+    weight: 1,
     order: 5
   },
   {
-    group: "Who's the next winner?",
-    label: 'David',
-    weight: 2,
+    group: "Cosa Vuoi fare in ZoOes?",
+    label: 'Assets Management GRC',
+    weight: 1,
     order: 6
   },
   {
-    group: "Who's the next winner?",
-    label: 'Michael',
+    group: "Cosa Vuoi fare in ZoOes?",
+    label: 'Update OS obsoleti',
     weight: 1,
     order: 7
   },
   {
-    group: "Who's the next winner?",
-    label: 'Jessica',
-    weight: 3,
+    group: "Cosa Vuoi fare in ZoOes?",
+    label: 'Migrazione Repository',
+    weight: 1,
     order: 8
   },
-
   {
-    group: 'Motorcycle Club Raffle',
-    label: 'Ducati Panigale V4',
-    weight: 7,
+    group: "Cosa Vuoi fare in ZoOes?",
+    label: 'Migrazione Redmine',
+    weight: 1,
     order: 9
   },
   {
-    group: 'Motorcycle Club Raffle',
-    label: 'BMW S1000RR',
-    weight: 4,
+    group: "Cosa Vuoi fare in ZoOes?",
+    label: 'Migrazione GlusterFS',
+    weight: 1,
     order: 10
   },
   {
-    group: 'Motorcycle Club Raffle',
-    label: 'Yamaha YZF-R1',
-    weight: 6,
+    group: "Cosa Vuoi fare in ZoOes?",
+    label: 'Migrazione Minuorki',
+    weight: 1,
     order: 11
   },
   {
-    group: 'Motorcycle Club Raffle',
-    label: 'Kawasaki Ninja H2',
-    weight: 8,
+    group: "Cosa Vuoi fare in ZoOes?",
+    label: 'Migrazione Docker Swarm',
+    weight: 1,
     order: 12
   },
   {
-    group: 'Motorcycle Club Raffle',
-    label: 'Yamaha MT-10',
-    weight: 10,
+    group: "Cosa Vuoi fare in ZoOes?",
+    label: 'Active Directory Telese',
+    weight: 1,
     order: 13
   },
   {
-    group: 'Motorcycle Club Raffle',
-    label: 'Suzuki GSX-R1000',
-    weight: 3,
+    group: "Cosa Vuoi fare in ZoOes?",
+    label: 'WAF',
+    weight: 1,
     order: 14
   },
   {
-    group: 'Motorcycle Club Raffle',
-    label: 'Honda Gold Wing',
-    weight: 2,
+    group: "Cosa Vuoi fare in ZoOes?",
+    label: 'Autenticazione A2F',
+    weight: 1,
     order: 15
   },
   {
-    group: 'Motorcycle Club Raffle',
-    label: 'Triumph Rocket 3',
-    weight: 2,
+    group: "Cosa Vuoi fare in ZoOes?",
+    label: 'Documentazione API',
+    weight: 1,
     order: 16
-  },
-  {
-    group: 'Motorcycle Club Raffle',
-    label: 'Aprilia RSV4',
-    weight: 10,
-    order: 17
-  },
-  {
-    group: 'Motorcycle Club Raffle',
-    label: 'Suzuki Hayabusa',
-    weight: 3,
-    order: 19
-  },
-  {
-    group: 'Motorcycle Club Raffle',
-    label: 'Indian Challenger',
-    weight: 4,
-    order: 20
-  },
-  {
-    group: 'Motorcycle Club Raffle',
-    label: 'Kawasaki Z H2',
-    weight: 9,
-    order: 23
   },
 
   {
-    group: '晚餐吃什麼?',
-    label: '火鍋',
-    weight: 5,
-    order: 24
-  },
-  {
-    group: '晚餐吃什麼?',
-    label: '牛肉麵',
-    weight: 4,
-    order: 25
-  },
-  {
-    group: '晚餐吃什麼?',
-    label: '牛排館',
-    weight: 3,
-    order: 26
-  },
-  {
-    group: '晚餐吃什麼?',
-    label: '拉麵',
-    weight: 2,
-    order: 27
-  },
-  {
-    group: '晚餐吃什麼?',
-    label: '便當店',
+    group: 'CBA2',
+    label: 'SGV2',
     weight: 1,
-    order: 28
+    order: 0
   },
   {
-    group: '晚餐吃什麼?',
-    label: '自助餐',
+    group: 'CBA2',
+    label: 'KeyCloak',
     weight: 1,
-    order: 29
+    order: 1
   },
   {
-    group: '晚餐吃什麼?',
-    label: '夜市',
-    weight: 3,
-    order: 30
+    group: 'CBA2',
+    label: 'Unistorage',
+    weight: 1,
+    order: 2
   },
   {
-    group: '晚餐吃什麼?',
-    label: '速食店',
-    weight: 10,
-    order: 31
+    group: 'CBA2',
+    label: 'Pentaho',
+    weight: 1,
+    order: 3
   },
   {
-    group: '晚餐吃什麼?',
-    label: '中餐館',
-    weight: 3,
-    order: 32
+    group: 'CBA2',
+    label: 'Portale',
+    weight: 1,
+    order: 4
+  },
+  {
+    group: 'CBA2',
+    label: 'Ricorsi',
+    weight: 1,
+    order: 5
+  },
+  {
+    group: 'CBA2',
+    label: 'Truble Ticket',
+    weight: 1,
+    order: 6
+  },
+  {
+    group: 'CBA2',
+    label: 'SGE',
+    weight: 1,
+    order: 7
+  },
+  {
+    group: 'CBA2',
+    label: 'MobileFine',
+    weight: 1,
+    order: 8
+  },
+  {
+    group: 'CBA2',
+    label: 'CRM',
+    weight: 1,
+    order: 9
+  },
+  {
+    group: 'CBA2',
+    label: 'e-learning',
+    weight: 1,
+    order: 10
+  },
+  {
+    group: 'CBA2',
+    label: 'Gestione Turni',
+    weight: 1,
+    order: 11
+  },
+  {
+    group: 'CBA2',
+    label: 'MNS',
+    weight: 1,
+    order: 12
   }
 ];

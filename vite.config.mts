@@ -18,8 +18,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', '/img/icons/ios/180.png'],
       manifest: {
-        name: 'Unfair Spin Wheel',
-        short_name: 'Unfair Spin Wheel',
+        name: 'ZoOeS Unfair Spin Wheel',
+        short_name: 'ZoOeS Unfair Spin Wheel',
         description: 'The world is unfair, and so is our spin wheel.',
         theme_color: '#212f56',
         icons: [
